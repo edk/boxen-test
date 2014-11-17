@@ -1,0 +1,12 @@
+[client]
+host=<%= @host %>
+port=<%= @port %>
+socket=<%= @socket %>
+
+[server]
+datadir=<%= @datadir %>
+log-error=<%= "#{@logdir}/error.log" %>
+bind-address=<%= @host %>
+port=<%= @port %>
+socket=<%= @socket %>
+max_allowed_packet=1073741824

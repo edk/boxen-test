@@ -1,0 +1,3 @@
+mod 'pcre',      '0.0.1', :github_tarball => 'boxen/puppet-pcre'
+mod 'pkgconfig', '0.0.1', :github_tarball => 'boxen/puppet-pkgconfig'
+mod 'swig',      '0.0.1', :github_tarball => 'boxen/puppet-swig'

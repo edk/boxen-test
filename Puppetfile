@@ -59,7 +59,7 @@ github "xquartz",     "1.2.1"
 
 # See all the modules at: https://github.com/boxen
 github "atom"
-github "sublime_text2"
+github "sublime_text_2"
 github "iterm2"
 github "mysql"
 github "firefox"
