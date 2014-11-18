@@ -1,0 +1,3 @@
+class pcre {
+  package { 'pcre': }
+}

@@ -119,6 +119,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pcre
+  specs:
+    pcre (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
@@ -250,6 +255,7 @@ DEPENDENCIES
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
   openssl (= 1.0.0)
+  pcre (>= 0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   qt (>= 0)

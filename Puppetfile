@@ -87,4 +87,5 @@ github "textmate"
 github "gitx"
 github "qt"
 github "swig"
+github "pcre"
 
