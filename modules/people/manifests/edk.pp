@@ -1,5 +1,5 @@
 
-class projects::coupa_ent {
+class people::edk {
   include phantomjs
 
   boxen::project { 'rails_app':
