@@ -57,7 +57,8 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-# See all the modules at: https://github.com/boxen
+# Optional/custom modules. There are tons available at
+# https://github.com/boxen.
 github "atom"
 github "sublime_text_2"
 github "iterm2"
@@ -86,5 +87,3 @@ github "textmate"
 github "gitx"
 
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
