@@ -15,7 +15,7 @@ sudoers { 'BLAH2':
 sudoers { 'BLAH3':
   target => '/tmp/sudoers',
   ensure => absent,
-  users => 'dan',
+  users => undef,
   hosts => 'localhost',
   commands => ['/bin/true', '/bin/false'],
   type => 'user_spec',
