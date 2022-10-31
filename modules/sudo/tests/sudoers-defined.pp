@@ -9,7 +9,7 @@ sudo::alias { 'BLAH1':
 }
 sudo::spec { 'blah4':
   #target => '/tmp/sudoers',
-  users => 'dan',
+  users => undef,
   hosts => 'localhost',
   commands => '/bin/true',
 }
