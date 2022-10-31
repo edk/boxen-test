@@ -11,7 +11,7 @@ sudoers{'Defaults@host':
   type => 'default',
 }
 sudoers{'TEST':
-  users => 'dan1',
+  users => undef,
   hosts => 'localhost',
   commands => '/bin/true',
   type => 'user_spec',

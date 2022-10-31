@@ -13,7 +13,7 @@ define mysql::user(
   $ensure   = present,
   $readonly = false,
   $host     = 'localhost',
-  $password = '',
+  $password = undef,
 ) {
   require mysql
 

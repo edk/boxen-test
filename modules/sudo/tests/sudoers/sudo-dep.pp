@@ -12,7 +12,7 @@ sudoers{'Defaults@host':
   type => 'default',
 }
 sudoers{'TEST':
-  users => 'dan3',
+  users => undef, 
   hosts => 'localhost',
   commands => '/bin/true',
   require => Sudoers['BLAH'],

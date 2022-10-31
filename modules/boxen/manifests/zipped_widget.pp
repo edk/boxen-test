@@ -18,7 +18,7 @@ define boxen::zipped_widget(
       "zipped_widget-extract-${name}":
         command     => "/usr/bin/unzip '/tmp/${name}.zip'",
         cwd         => '/Library/Widgets',
-        user        => 'root',
+        user        => undef,
         require     => Exec["zipped_widget-download-${name}"],
         refreshonly => true;
     }
